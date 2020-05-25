@@ -1,0 +1,6 @@
+jsonpickle
+tensorflow==2.2.0-rc3
+numpy
+flask
+Pillow
+gunicorn
