@@ -1,5 +1,6 @@
 jsonpickle
+tensorflow==2.0.1
 numpy
 flask
 Pillow
-gunicorn
+gunicorn==19.9.0
