@@ -25,8 +25,8 @@ def classify():
     app.logger.debug('Running classifier')
     upload = request.files['data']
     image = load_image(upload)
-    
-    model = load_model('best1.h5') 
+    print('image ready')
+    model = load_model('best2.h5') 
     result=model.predict_classes(image)
 
     predicted_class = ("bridge", "child","tristep1","tristep2","tristep3")[result[0]]
